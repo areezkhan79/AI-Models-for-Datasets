@@ -1,0 +1,9 @@
+# Ignore data and results folders
+/data/*
+/results/*
+!data/.gitkeep
+!results/.gitkeep
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
