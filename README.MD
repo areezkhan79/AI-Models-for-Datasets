@@ -29,11 +29,13 @@ This project aims to filter datasets on Italian food recipes using survival anal
 
 ## Description
 
-- `generate_datasets.py`: Generates synthetic datasets.
-- `preprocess_data.py`: Preprocesses the datasets.
-- `survival_analysis.py`: Performs survival analysis and eliminates datasets.
-- `main.py`: Executes the workflow.
+- `generate_datasets.py`: Generates synthetic datasets for analysis.
+- `preprocess_data.py`: Handles preprocessing tasks for the datasets.
+- `survival_analysis.py`: Performs survival analysis techniques on the datasets.
+- `gemini_integration.py`: Integrates with the Gemini API for additional data processing or text generation tasks.
+- `main.py`: Serves as the main script orchestrating the workflow and analysis tasks.
 
 ## Results
 
-The final selected dataset and survival plots are saved in the `data/` and `results/` folders, respectively.
+- `survival_plots.png`: Visual representation of survival analysis results.
+- `generated_text.txt`: Text file containing generated text output from the project.

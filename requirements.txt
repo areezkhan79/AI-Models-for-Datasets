@@ -2,3 +2,9 @@ pandas
 numpy
 lifelines
 matplotlib
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+transformers
+accelerate>=0.21.0
+google-generativeai
